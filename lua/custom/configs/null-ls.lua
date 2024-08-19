@@ -37,6 +37,11 @@ local sources = {
   -- terraform
   b.formatting.terraform_fmt,
 
+  -- python
+  b.diagnostics.mypy,
+  b.diagnostics.ruff,
+  b.formatting.black,
+
   -- spell check
   cspell.diagnostics.with {
     disabled_filetypes = {
