@@ -18,3 +18,19 @@ I'm pretty sure we can install all of these with `:MasonInstallAll`, but in case
 
 `:LspInfo`
 Shows the currently active LSPs attached to the buffer.
+
+### Syntax Highlighting Stopped?
+
+This would most likely be to do some version mismatching.
+
+Try first by updating anything NVChad related - `:Lazy sync`.
+
+Then, make sure all Mason packages are up to date `:MasonUpdateAll`.
+
+Lastly, repeat the steps after nuking the nvim install:
+
+```bash
+rm -rf ~/.config/nvim
+rm -rf ~/.local/share/nvim
+rm -rf ~/.cache/nvim
+```

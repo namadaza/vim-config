@@ -14,8 +14,6 @@ for _, lsp in ipairs(servers) do
 end
 
 --
--- lspconfig.pyright.setup { blabla }
---
 -- Settings info here:
 -- https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#cssls
 
