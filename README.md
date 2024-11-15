@@ -1,4 +1,6 @@
-# vimconfig
+# vim-config
+
+Stored in `~/.config/nvim`.
 
 ### Fresh Setup
 
