@@ -13,20 +13,8 @@ local sources = {
       "less",
     },
   },
-  b.formatting.eslint.with {
-    disabled_filetypes = {
-      "css",
-      "scss",
-      "less",
-    },
-  },
-  b.diagnostics.eslint.with {
-    disabled_filetypes = {
-      "css",
-      "scss",
-      "less",
-    },
-  },
+  require("none-ls.diagnostics.eslint"),
+  require("none-ls.formatting.eslint"),
 
   -- Lua
   b.formatting.stylua,
