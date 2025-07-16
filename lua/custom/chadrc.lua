@@ -12,7 +12,7 @@ M.ui = {
   hl_add = highlights.add,
 
   tabufline = {
-    enabled = true,
+    enabled = false,
   },
   statusline = {
     overriden_modules = function(modules)
