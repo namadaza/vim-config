@@ -1,5 +1,11 @@
 # vimconfig
 
+# Update 7/17/2025
+
+No longer using Neovim, switched to using VSCode/Cursor. Use the profile stored in the root of this directory to quickly set up a vim-like experience, with file pinning from harpoon, periscope for grep searches, and similar key bindings.
+
+# Old Neovim Setup
+
 ### Fresh Setup
 
 - Download neovim `brew install neovim`
