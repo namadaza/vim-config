@@ -1,7 +1,7 @@
 alias gitwb="git branch -vv"
 alias gitprep="git add ."
 alias gitfr="git fetch;git rebase origin/develop"
-alias gitl="git log"
+alias gitl="git log -n 20"
 alias prunebranch="git fetch -p; git branch -vv | grep ': gone]' | awk '{print $1}' | xargs git branch -D"
 alias p="pnpm"
 alias python="python3"
